@@ -3,6 +3,7 @@ package com.sitare.bottomnavigation
 import android.graphics.Color
 import android.os.Bundle
 import android.view.*
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.appcompat.app.AppCompatActivity
 import com.sitare.bottomnavigation.databinding.FragmentGameStartBinding
@@ -36,6 +37,24 @@ class GameStartFragment : Fragment() {
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         inflater.inflate(R.menu.toolbar_menu, menu)
         super.onCreateOptionsMenu(menu, inflater)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.action_info -> {
+                Toast.makeText(requireContext(), "Info", Toast.LENGTH_SHORT).show()
+                return true
+            }
+            R.id.action_add -> {
+                Toast.makeText(requireContext(), "Add", Toast.LENGTH_SHORT).show()
+                return true
+            }
+         R.id.action_add -> {
+                Toast.makeText(requireContext(), "Add", Toast.LENGTH_SHORT).show()
+                return true
+         }
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     override fun onDestroyView() {
