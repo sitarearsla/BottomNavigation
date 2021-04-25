@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gameStartFragment"
+        android:icon="@drawable/image_one"
+        android:title="@string/game_start" />
+    <item
+        android:id="@+id/gameScreenFragment"
+        android:icon="@drawable/image_two"
+        android:title="@string/game_screen" />
+    <item
+        android:id="@+id/gameOverFragment"
+        android:icon="@drawable/image_three"
+        android:title="@string/game_over" />
+</menu>

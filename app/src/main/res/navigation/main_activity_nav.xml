@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/gameStartFragment">
+
+    <fragment
+        android:id="@+id/gameStartFragment"
+        android:name="com.sitare.bottomnavigation.GameStartFragment"
+        android:label="fragment_game_start"
+        tools:layout="@layout/fragment_game_start" />
+    <fragment
+        android:id="@+id/gameScreenFragment"
+        android:name="com.sitare.bottomnavigation.GameScreenFragment"
+        android:label="fragment_game_screen"
+        tools:layout="@layout/fragment_game_screen" />
+    <fragment
+        android:id="@+id/gameOverFragment"
+        android:name="com.sitare.bottomnavigation.GameOverFragment"
+        android:label="fragment_game_over"
+        tools:layout="@layout/fragment_game_over" />
+</navigation>

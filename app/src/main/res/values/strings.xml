@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BottomNavigation</string>
+    <string name="game_start">1</string>
+    <string name="game_screen">2</string>
+    <string name="game_over">3</string>
+    <string name="toolbar_title">Game Title</string>
+    <string name="toolbar_subtitle">Subtitle</string>
+    <string name="toolbar_menu_info">Info</string>
+    <string name="toolbar_menu_add">Add</string>
+    <string name="toolbar_menu_quit">Quit</string>
+</resources>
